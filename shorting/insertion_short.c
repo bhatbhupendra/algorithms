@@ -4,7 +4,7 @@
 
 void main(){
 	int data[] = {9, 5, 1, 4, 3};
-  	int size = sizeof(data) / sizeof(data[0]);
+  	int size = sizeof(data) / sizeof(data[0]); //calculate the size
   	
   	//insertion short algorithm
   	int step;
@@ -19,7 +19,7 @@ void main(){
 	    data[j + 1] = key;
   	}
   	
-  	//second
+  	//Alternative way of insertion short
   	
 	  	for (step = 1; step < size; step++) {
 		    int key = data[step];
