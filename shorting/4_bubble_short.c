@@ -1,6 +1,7 @@
 //also called exchange short
 /* Bubble sort code */
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
 int main(){
   	int i, j,temp;
